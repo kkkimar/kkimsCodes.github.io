@@ -1,0 +1,32 @@
+/*google web font*/
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,600;1,400;1,500;1,600&family=Montserrat+Alternates&family=Noto+Sans+KR:wght@300;400;500;700;900&family=Roboto:wght@500;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+html {
+  font-size: 0.625em;
+}
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.screen_out {
+  position: absolute;
+  top: -9999em;
+}
